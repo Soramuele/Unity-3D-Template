@@ -113,7 +113,7 @@ This project offers a scalable input handler, implementing the **action map** in
 ```
 - `InputHandler` handles your _InputAction_ events and is a ScriptableObject, so it can easly connect with other scripts that needs input
 ```
-    [SerializeField] InputHandler inputHandler;
+    [SerializeField] Inputs.InputHandler inputHandler;
 ```
 - Contains functions to change `Action Map`, enabling only the required action map
 ```
